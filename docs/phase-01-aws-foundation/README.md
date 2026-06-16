@@ -209,13 +209,10 @@ Purpose:
 
 ---
 
-# Network Architecture Screenshot
+# Terraform Apply & Network Architecture Screenshot
 
-```md
-screenshots/phase-01-aws-foundation/vpc-resource-map.png
-```
-
-![VPC Resource Map](../../../screenshots/phase-01-aws-foundation/vpc-resource-map.png)
+![VPC Deplyoment](../../screenshots/phase-01-aws-foundation/vpc-deployment.png)
+![VPC Resource Map](../../screenshots/phase-01-aws-foundation/vpc-resource-map.png)
 
 This view shows:
 
@@ -380,11 +377,7 @@ No public IP
 
 # EC2 Deployment Screenshot
 
-```md
-screenshots/phase-01-aws-foundation/ec2-instances.png
-```
-
-![EC2 Instances](../../../screenshots/phase-01-aws-foundation/ec2-instances.png)
+![EC2 Instances](../../screenshots/phase-01-aws-foundation/ec2-instances.png)
 
 The screenshot demonstrates:
 
@@ -418,11 +411,7 @@ versions.tf
 
 # Terraform Structure Screenshot
 
-```md
-screenshots/phase-01-aws-foundation/terraform-structure.png
-```
-
-![Terraform Structure](../../../screenshots/phase-01-aws-foundation/terraform-structure.png)
+![Terraform Structure](../../screenshots/phase-01-aws-foundation/terraform-structure.png)
 
 Benefits:
 
@@ -455,15 +444,7 @@ Infrastructure deployed successfully
 
 Test:
 
-```bash
-ssh ubuntu@<security-server-public-ip>
-```
-
-Result:
-
-```text
-Successful connection
-```
+![SSH Validation](../../screenshots/phase-01-aws-foundation/ssh-validation.png)
 
 Validated:
 
